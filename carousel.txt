@@ -1,0 +1,30 @@
+https://getbootstrap.com/docs/5.2/components/carousel/
+https://www.w3schools.com/bootstrap5/bootstrap_carousel.php
+
+    <div id="jogos" class="carousel slide mx-auto col-xxl-4 col-xl-5 col-lg-6 col-md-7 col-sm-9 col-12" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a target="_blank" href="">
+                    <img src="" class="d-block w-100">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a target="_blank" href="">
+                    <img src="" class="d-block w-100">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a target="_blank" href="">
+                    <img src="" class="d-block w-100">
+                </a>
+            </div>
+        </div>
+        <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#jogos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next bg-dark" type="button" data-bs-target="#jogos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
